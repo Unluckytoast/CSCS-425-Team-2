@@ -1,14 +1,15 @@
-Will Christopher
-CSC 425 Deliverable 2: User Research
+Student Name: Will Christopher
+Branch Name: d2-Will-Christopher
+Date Submitted: August 29, 2025
 
 
-
+Target User Group
 User Group: First-Generation College Students
 
-Defined problem: 
+Problem Description: 
 First-generation college students often experience a reduced sense of belonging and social on campus due to limited family experience with higher education. These barriers make it difficult to access mentorship, extracurricular opportunities, and professional networks, leading to lower engagement, increased stress, and higher odds of delayed graduation or dropping out. 
 
-Research:
+Evidence of the Problem:
 According to firstgenfoward.org, “First-generation students graduate at a rate of 24% versus 59% for continuing-generation students.”
 
 “First generation college students (I.e., those who are the first in their family to attend college) make up nearly 1 in 4 clients presenting to college counseling centers in the United States” - Wilson Trusty, PennState Student Affairs Center for Collegiate Mental Health
@@ -18,12 +19,13 @@ According to firstgenfoward.org, “First-generation students graduate at a rate
 
 
 
-How might we statement
+"How Might We" Statement
 
 How might we support first-generation college students in successfully navigating academic systems and resources?
 
 
 User Persona
+
 Name: Conor Jeffords
 Age: 20
 Occupation: First-Generation College Student at Murray State University
@@ -37,10 +39,11 @@ Ethical Lens Applied
 
 Principle: 
 Equity of opporutnity and support for first-generation college students
+
 Application: This problem violates the principle of fairness by leaving first-generation students at a disadvantage in navigating academic, financial, and social systems without the guidence that their peers often have. Unequal access to mentorship, campus reources, and supoort networks significantly impacts their academic success.
 
 Stakeholders Impacted: 
-First-generation students (particularly those away from their family), universtiy faculty and staff, and student support offices.
+First-generation students (especially those away from their family), universtiy faculty and staff, and student support offices.
 
 Professional Standard:
 Aligns with ACM Code of Ethics 1.4: “Be fair and take action not to discriminate.”
