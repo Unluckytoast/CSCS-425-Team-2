@@ -1,0 +1,38 @@
+		CSC425 Deliverable 2: User Research & Problem Definition 
+Student Name: Jackson Bradley
+ Branch Name: Jackson’s Branch
+ Date Submitted: August 27, 2025
+Target User Group
+Students with ADHD
+Particularly Students who are majority online or hybrid courses
+Problem Description
+Students with ADHD often struggle with time management, organization, and maintaining focus in unstructured environments. In online or hybrid learning, the lack of in-person accountability and increased distractions can make it even harder to stay on top of coursework. This can lead to missed deadlines, poor academic performance, and high stress levels.
+Evidence of the Problem
+●	ADHD is thus among the most prevalent neurodevelopmental disorders in higher education populations
+●	In a study of nearly 3400 undergraduates from 2 universities in the southeastern U.S., 4.5 % reported a current ADHD diagnosis. Rates at each university (1 public and 1 private) were 6.6 % and 2.5 %, respectively,
+●	ADHD students
+
+“How Might We” Statement
+How might we design simple, supportive tools to help college students with ADHD manage focus, deadlines, and motivation in online or hybrid learning environments?
+User Persona
+Name: Kevin Rivera
+ Age: 20
+ Occupation: Part-time dishwasher and part-time student
+Location: Kevil, KY
+Goals: 
+•	Easily tracking and breaking down task
+•	reminders for deadlines
+ 
+ Frustrations: 
+•	Struggles to stay focused without external accountability.
+•	Overwhelmed by cluttered digital tools or apps with too many features.
+
+Technology Comfort Level: Has a phone and personal laptop they use daily Comfortable with apps, but needs simple, low-friction tools
+Ethical Lens Applied
+Principle: Equity of access to education
+●	Application: Designing tools tailored for ADHD students ensures they have equal opportunity to succeed in online and hybrid environments. 
+
+●	Stakeholders Impacted: neurodiverse students
+
+●	Professional Standard: Aligns with ACM Code of Ethics 1.4: “Be fair and take action not to discriminate.”
+
