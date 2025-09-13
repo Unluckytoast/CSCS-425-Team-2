@@ -1,0 +1,61 @@
+App: Roommate budgeting & chore scheduling app
+Branch example: D3-JacksonBradley
+Roommate households are a growing segment: 6.8 million U.S. households reported sharing housing with unrelated housemates in 2023, creating clear demand for tools that reduce friction around money and chores. The most attractive early market is young-adult roommate households (≈41% of those 6.8M); a focused product with an honest freemium model and integrated chore + split features can capture meaningful revenue in the low-millions within a few years.
+ User Group Profile 
+Demographics
+•	Young adults (≈18–35) are the core group — college students and early-career renters — but growth is occurring among older adults (NAHB notes rising share among 55+). 
+•	Urban & high-rent areas disproportionately adopt shared housing (rent pressure drives roommate arrangements). (Census / housing reports). 
+•	Phone-first and digitally connected: ~9 in 10 U.S. adults own a smartphone, so a mobile-first app is appropriate. 
+Pain points
+•	Cleaning / chores is the top roommate pet peeve (surveys show cleaning habits top complaints ~37%). 
+•	Money & late/unequal payments — recurring source of friction (surveys find >1 in 5 roommates have argued about finances). 
+•	Poor coordination & communication — people want clarity on chores, schedules, and guest/cleaning expectations. (Multiple renter/roommate surveys). 
+Daily habits relevant to product design
+•	Mobile-first workflows (users rely on phone reminders, calendar apps, messaging). 
+•	Frequent small shared purchases (groceries, supplies) and recurring bills (rent, utilities) that need tracking. 
+•	Irregular schedules across roommates — flexibility and recurring/rotating chore assignment features are valuable. 
+
+2) Market Size & Opportunity 
+
+Recent housing data shows 6.8 million U.S. households share living space with unrelated roommates (2023). That gives a concrete U.S. household TAM for a roommates’ coordination app. If we focus on the young-adult segment (≈41% of those roommates per NAHB), the serviceable available market (SAM) is roughly 2.79 million U.S. young-adult roommate households. With a conservative ARPU assumption of $24/year (freemium + paid Pro features), TAM → ~$163M/year (6.8M × $24), SAM → ~$66.9M/year (2.788M × $24). An attainable early SOM (1–5% of SAM in first 3 years) is ~27.9k–139.4k households, or ~$0.67M–$3.35M/year in run-rate revenue under the same ARPU assumption. (Notes: ARPU is an assumption; industry bill-splitting market research reports and fintech trends validate growing demand for these app categories). 
+Metric	Estimate (households)	Estimated annual revenue (USD)
+TAM (U.S. roommate households)	6,800,000	$163,200,000 (6.8M × $24 ARPU) 
+SAM (young-adult roommate households ≈41%)	2,788,000	$66,912,000 (2.788M × $24) 
+SOM (1%–5% of SAM; 3-year target)	27,880 – 139,400	$669,120 – $3,345,600
+APP	FEATURES	STRENGHTS	WEAKNESSES	REVIEWS
+Splitwise	
+
+Expense splitting, groups, custom splits, recurring bills, Pro subscription, Pay integrations. 
+	Very widely used for bill splitting; simple UX; handles complex split math; strong brand recognition.	Limited chore/task coordination; growing user complaints about shifting paywall / premium gating; many users want integrated chore features	High adoption; mixed reviews where power-users point to Pro limits and paywalls.
+Tricount	Simple group expense tracking, trip and household modes, web + mobile.	Free/unlimited positioning; strong in Europe; very easy on-boarding for trips and household splits.	Not designed for chores/scheduling; fewer social/accountability features; 	Positive ratings for ease of use; used heavily for trips & shared expenses.
+OurHome	Chore charts, task scheduling, shared grocery lists, points/gamification.	Strong at chore management, gamified incentives (works well for families / motivated groups)	Expense-splitting and nuanced fairness for bills are weak; gamification may not suit adult roommates in all households.	Praised for chores and organization; some users say it’s family-oriented rather than adult roommate-oriented.
+
+Gaps our app can fill
+•	Integrated finance + chores in one product (many apps do one or the other well).
+•	Fairness algorithms that consider room size, usage, and cleaning load (not just even splits).
+•	Transparent pricing / generous free tier and built-in enforcement/accountability (reminders, simple settlement flows).
+
+RoomEase helps roommates stop arguing and start coordinating — one app for fair bill splitting, shared shopping, and chore scheduling. We combine smart fairness (room-size/use weighting), easy settlement, and flexible chore rotations so households save time and reduce conflict without juggling multiple tools.  
+Which GenAI & tools were used
+•	ChatGPT (this assistant) — synthesis, report writing, phrasing of UVP and competitive gaps.
+•	Web.run (web search / Bing) — collected and verified recent statistics and primary sources (Census tables, NAHB Eye on Housing, Pew Research, market reports, competitor sites). Eye On Housing+2Census Data+2
+•	python_user_visible — created the chart and the TAM/SAM/SOM quick table for the deliverable (chart file saved to /mnt/data/painpoints_chart.png).
+Prompts used:
+User Group Profile: "You are a market researcher. Analyze the demographics, pain points, and daily habits of potential users for a new roommate budgeting and chore scheduling app. Present the findings in 3 concise bullet points per category (demographics, pain points, habits)."
+Market Size & Opportunity"Act as a business analyst. Estimate the total addressable market (TAM), serviceable available market (SAM), and serviceable obtainable market (SOM) for the roommate app. Use recent statistics where possible. Present the numbers in a short paragraph followed by a 3-row table (TAM, SAM, SOM)."
+Competitor Analysis: "You are a competitive intelligence expert. Compare 2–3 apps similar to the roommate app. Create a table with columns for Features, Strengths, Weaknesses, and Customer Reviews. Highlight any gaps that your app could fill."
+Unique Value Proposition"Pretend you are a startup pitch coach. Write a clear and persuasive unique value proposition (UVP) for  The roomate app in 2–3 sentences. Then, list 3 bullet points showing how it differentiates from competitors."
+Data Visualization"You are a data storyteller. Using the information from earlier slides (market size, competitor ratings, or user habits), recommend one chart or graph that best illustrates the opportunity. Provide the chart description in words and outline the key data points that should appear in the visualization."
+I verified the Ai’s resources by reading through the articles and looking at verified sources like the US census
+
+
+
+Research Sources: 
+•	NAHB — House Sharing is Not Just for Young Adults (Eye on Housing, 2025). Eye On Housing
+•	U.S. Census Bureau — Total Households (2024 American Community Survey / profile). Census Data
+•	Pew Research Center — Mobile Fact Sheet (smartphone ownership 2024). Pew Research Center
+•	Verified Market Research / Market reports — bill-splitting apps market estimates (2023–2025). Verified Market Research+1
+•	Splitwise (product pages & reports) and Investopedia background. Splitwise+1
+•	Tricount (product pages) & OurHome (product pages / reviews). tricount+1
+•	Rent.com roommate & pet peeves survey; ApartmentGuide roommate finances survey; ApartmentAdvisor roommate survey. Rent.com+2
+
