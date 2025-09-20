@@ -1,0 +1,56 @@
+Low-Fidelity Wireframes (Mobile-First)
+AppWireframe.png
+
+Functional Requirements
+User authentication ( login/ logout)
+
+CRUD operations for tasks/chores
+Rent tracking
+
+Shared calendar integration for events and schedules
+
+announcement board for group posts
+
+Notifications for reminders (chores, rent, events)
+
+Admin dashboard 
+
+User Stories
+As a landlord, I want to view actions taken by tenants in the admin dashboard so that I can prepare for meetings with them.
+
+
+As a tenant, I want to view the rent status for my roommates, so that I know who has paid and what is due.
+
+
+As a tenant, I want to manage a chore list, so that household responsibilities are organized and fair.
+
+
+As a tenant, I want to view a shared calendar so that I can coordinate schedules with my roommates.
+
+
+User Journey
+User opens app → sees login screen.
+
+
+Tenant logs in → redirected to tenant dashboard (shows rent status, tasks, announcements, calendar).
+
+
+From the dashboard → tenant can:
+
+
+Open Task Page → create/edit/delete chores.
+
+
+Open Rent Page → view rent payments and due dates.
+
+
+Open Whiteboard → read/post announcements.
+
+
+Open Calendar → see shared events.
+
+
+Landlord/RA logs in → redirected to Admin Dashboard (aggregated data: rent, tasks, announcements).
+
+
+User logs out → session ends.
